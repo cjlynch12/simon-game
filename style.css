@@ -1,0 +1,84 @@
+body {
+  background-color: #fff;
+  color: #BD4F6C;
+  
+}
+
+#header{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.btn {
+  border-style: solid;
+  border-width: .5px;
+  width: 100px;
+  display: inline-block;
+  margin: 10px 25px;
+}
+
+.btn:hover{
+  border-color: black;
+}
+
+.gameSq {
+  border-style: solid;
+  border-width: .5px;
+  border-color: #BD4F6C; 
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.gameSq:hover {
+  border-color: black;
+}
+
+#sqContainer {
+  width: 436px;
+  height: 425px;
+  margin: auto;
+}
+
+#settingsDisplay {
+  width: 436px;
+  margin: auto;
+}
+
+.statusText {
+  display: inline-block;
+  margin: 0 5% 5% 5% ;
+  
+}
+
+
+
+#greenSq {
+  background-color: #DDEDAA;
+  color: #DDEDAA;
+}
+
+
+#redSq {
+  background-color: #D7816A;
+  color: #D7816A;
+}
+
+#yellowSq {
+  background-color: #F0CF65;
+  color: #F0CF65;
+}
+
+#blueSq {
+  background-color: #93B5C6;
+  color: #93B5C6;
+}
+
+#greenSq:hover, #redSq:hover, #blueSq:hover, #yellowSq:hover {
+  cursor: pointer;
+}
+
+#strictBtn {
+  
+}
