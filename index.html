@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <audio src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" autostart="false"></audio>
+<audio src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" autostart="false"></audio>
+<audio src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" autostart="false"></audio>
+<audio src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" autostart="false"></audio>
+<!--https://s3.amazonaws.com/freecodecamp/simonSound1.mp3, https://s3.amazonaws.com/freecodecamp/simonSound2.mp3, https://s3.amazonaws.com/freecodecamp/simonSound3.mp3, https://s3.amazonaws.com/freecodecamp/simonSound4.mp3-->
+<div id="header">
+  
+  <div id="btnContainer">
+    <div class="btn" id="strictBtn"> Strict </div>
+    <div class="btn" id="startBtn"> Start </div>
+    <div class="btn" id="resetBtn"> Reset </div>
+</div>
+<div id="sqContainer">
+  <div class ="gameSq" id="greenSq">0</div>
+  <div class="gameSq" id="redSq">1</div>
+  <div class="gameSq" id="yellowSq">2</div>
+  <div class="gameSq" id="blueSq">3</div>
+</div>
+<div id="statusContainer"> 
+  <div id="settingsDisplay"> 
+    <div class="statusText" id="strict_text">Strict Mode: Off</div>
+    <div class="statusText" id="stepCount">1</div>
+    <div class="statusText" id="game_text">Game is Paused</div>
+  </div>
+  <div id="msgText"> Press Start to Play! </div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
